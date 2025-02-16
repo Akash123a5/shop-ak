@@ -38,7 +38,7 @@ document.querySelectorAll(".add-to-cart").forEach(button => {
         };
         addToCart(product);
 
-        ✅ পেজ রিলোড হবে কার্টে অ্যাড করার পর
+        // ✅ পেজ রিলোড হবে কার্টে অ্যাড করার পর
         setTimeout(() => {
             location.reload();
         }, 500); // 0.5 সেকেন্ড ডিলে দিয়ে রিলোড করাচ্ছি যাতে ইউজার বুঝতে পারে
@@ -245,5 +245,4 @@ document.getElementById("showToastBtn").addEventListener("click", function() {
         toast.classList.remove("show");
     }, 3000);
 });
-
 
